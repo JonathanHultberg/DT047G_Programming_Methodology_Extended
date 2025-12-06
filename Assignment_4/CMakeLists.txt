@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 4.0)
+project(Lab_4)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(Lab_4 main.cpp
+        email.cpp
+        email.h
+        mail_box.cpp
+        mail_box.h)
