@@ -55,7 +55,7 @@ FetchContent_MakeAvailable(cpr)
 
 add_executable(weather_planner
         main.cpp
-        forecast.h
+        Forecast.h
         ForecastProvider.h
         OpenMeteoProvider.cpp
         OpenMeteoProvider.h
